@@ -1,7 +1,8 @@
-package com.example.actionbar1;
+package com.example.actionprovider1;
 
-import android.app.Activity;
+
 import android.os.Bundle;
+import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -39,11 +40,23 @@ public class MainActivity extends Activity
             Toast.makeText(this, "About Clicked", Toast.LENGTH_SHORT).show();
             result = true;
             break;
+         case R.id.thing1:
+            Toast.makeText(this, "thing1 Clicked", Toast.LENGTH_SHORT).show();
+            result = true;
+            break;
+         case R.id.thing2:
+            Toast.makeText(this, "thing2 Clicked", Toast.LENGTH_SHORT).show();
+            result = true;
+            break;
+         case R.id.thing3:
+            Toast.makeText(this, "thing3 Clicked", Toast.LENGTH_SHORT).show();
+            result = true;
+            break;
          default:
             result = super.onOptionsItemSelected(item);
             break;
       }
-      
+
       return result;
    }
 
