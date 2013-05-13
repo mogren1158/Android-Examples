@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        />
+    <item
+        android:id="@+id/settings"
+        android:showAsAction="ifRoom|withText"
+        android:title="Settings"
+        android:actionProviderClass="com.example.shareactionprovider.CustomActionProvider"/>
+    <item
+        android:id="@+id/about"
+        android:showAsAction="ifRoom|withText"
+        android:title="About"/>
+    <item
+        android:id="@+id/thing1"
+        android:showAsAction="ifRoom|withText"
+        android:title="thing1"/>
+    <item
+        android:id="@+id/thing2"
+        android:showAsAction="ifRoom|withText"
+        android:title="thing2"/>
+    <item
+        android:id="@+id/thing3"
+        android:showAsAction="ifRoom|withText"
+        android:title="thing3"/>
+
+</menu>
