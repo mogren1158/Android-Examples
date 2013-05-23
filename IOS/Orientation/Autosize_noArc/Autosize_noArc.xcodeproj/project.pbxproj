@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB250BC174D3338007870FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB250BB174D3338007870FB /* UIKit.framework */; };
+		8EB250BE174D3338007870FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB250BD174D3338007870FB /* Foundation.framework */; };
+		8EB250C0174D3338007870FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB250BF174D3338007870FB /* CoreGraphics.framework */; };
+		8EB250C6174D3338007870FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB250C4174D3338007870FB /* InfoPlist.strings */; };
+		8EB250C8174D3338007870FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB250C7174D3338007870FB /* main.m */; };
+		8EB250CC174D3338007870FB /* JinaudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB250CB174D3338007870FB /* JinaudAppDelegate.m */; };
+		8EB250CE174D3338007870FB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB250CD174D3338007870FB /* Default.png */; };
+		8EB250D0174D3338007870FB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB250CF174D3338007870FB /* Default@2x.png */; };
+		8EB250D2174D3338007870FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB250D1174D3338007870FB /* Default-568h@2x.png */; };
+		8EB250D5174D3338007870FB /* JinaudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB250D4174D3338007870FB /* JinaudViewController.m */; };
+		8EB250D8174D3338007870FB /* JinaudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB250D6174D3338007870FB /* JinaudViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EB250B8174D3338007870FB /* Autosize_noArc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autosize_noArc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB250BB174D3338007870FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EB250BD174D3338007870FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EB250BF174D3338007870FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EB250C3174D3338007870FB /* Autosize_noArc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Autosize_noArc-Info.plist"; sourceTree = "<group>"; };
+		8EB250C5174D3338007870FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EB250C7174D3338007870FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB250C9174D3338007870FB /* Autosize_noArc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Autosize_noArc-Prefix.pch"; sourceTree = "<group>"; };
+		8EB250CA174D3338007870FB /* JinaudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinaudAppDelegate.h; sourceTree = "<group>"; };
+		8EB250CB174D3338007870FB /* JinaudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinaudAppDelegate.m; sourceTree = "<group>"; };
+		8EB250CD174D3338007870FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8EB250CF174D3338007870FB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8EB250D1174D3338007870FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EB250D3174D3338007870FB /* JinaudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinaudViewController.h; sourceTree = "<group>"; };
+		8EB250D4174D3338007870FB /* JinaudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinaudViewController.m; sourceTree = "<group>"; };
+		8EB250D7174D3338007870FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JinaudViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB250B5174D3338007870FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB250BC174D3338007870FB /* UIKit.framework in Frameworks */,
+				8EB250BE174D3338007870FB /* Foundation.framework in Frameworks */,
+				8EB250C0174D3338007870FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB250AF174D3338007870FB = {
+			isa = PBXGroup;
+			children = (
+				8EB250C1174D3338007870FB /* Autosize_noArc */,
+				8EB250BA174D3338007870FB /* Frameworks */,
+				8EB250B9174D3338007870FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB250B9174D3338007870FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB250B8174D3338007870FB /* Autosize_noArc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB250BA174D3338007870FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB250BB174D3338007870FB /* UIKit.framework */,
+				8EB250BD174D3338007870FB /* Foundation.framework */,
+				8EB250BF174D3338007870FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB250C1174D3338007870FB /* Autosize_noArc */ = {
+			isa = PBXGroup;
+			children = (
+				8EB250CA174D3338007870FB /* JinaudAppDelegate.h */,
+				8EB250CB174D3338007870FB /* JinaudAppDelegate.m */,
+				8EB250D3174D3338007870FB /* JinaudViewController.h */,
+				8EB250D4174D3338007870FB /* JinaudViewController.m */,
+				8EB250D6174D3338007870FB /* JinaudViewController.xib */,
+				8EB250C2174D3338007870FB /* Supporting Files */,
+			);
+			path = Autosize_noArc;
+			sourceTree = "<group>";
+		};
+		8EB250C2174D3338007870FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB250C3174D3338007870FB /* Autosize_noArc-Info.plist */,
+				8EB250C4174D3338007870FB /* InfoPlist.strings */,
+				8EB250C7174D3338007870FB /* main.m */,
+				8EB250C9174D3338007870FB /* Autosize_noArc-Prefix.pch */,
+				8EB250CD174D3338007870FB /* Default.png */,
+				8EB250CF174D3338007870FB /* Default@2x.png */,
+				8EB250D1174D3338007870FB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB250B7174D3338007870FB /* Autosize_noArc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB250DB174D3338007870FB /* Build configuration list for PBXNativeTarget "Autosize_noArc" */;
+			buildPhases = (
+				8EB250B4174D3338007870FB /* Sources */,
+				8EB250B5174D3338007870FB /* Frameworks */,
+				8EB250B6174D3338007870FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autosize_noArc;
+			productName = Autosize_noArc;
+			productReference = 8EB250B8174D3338007870FB /* Autosize_noArc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB250B0174D3338007870FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jinaud;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Ogren";
+			};
+			buildConfigurationList = 8EB250B3174D3338007870FB /* Build configuration list for PBXProject "Autosize_noArc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EB250AF174D3338007870FB;
+			productRefGroup = 8EB250B9174D3338007870FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB250B7174D3338007870FB /* Autosize_noArc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB250B6174D3338007870FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB250C6174D3338007870FB /* InfoPlist.strings in Resources */,
+				8EB250CE174D3338007870FB /* Default.png in Resources */,
+				8EB250D0174D3338007870FB /* Default@2x.png in Resources */,
+				8EB250D2174D3338007870FB /* Default-568h@2x.png in Resources */,
+				8EB250D8174D3338007870FB /* JinaudViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB250B4174D3338007870FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB250C8174D3338007870FB /* main.m in Sources */,
+				8EB250CC174D3338007870FB /* JinaudAppDelegate.m in Sources */,
+				8EB250D5174D3338007870FB /* JinaudViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EB250C4174D3338007870FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB250C5174D3338007870FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EB250D6174D3338007870FB /* JinaudViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB250D7174D3338007870FB /* en */,
+			);
+			name = JinaudViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB250D9174D3338007870FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EB250DA174D3338007870FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB250DC174D3338007870FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autosize_noArc/Autosize_noArc-Prefix.pch";
+				INFOPLIST_FILE = "Autosize_noArc/Autosize_noArc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EB250DD174D3338007870FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autosize_noArc/Autosize_noArc-Prefix.pch";
+				INFOPLIST_FILE = "Autosize_noArc/Autosize_noArc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB250B3174D3338007870FB /* Build configuration list for PBXProject "Autosize_noArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB250D9174D3338007870FB /* Debug */,
+				8EB250DA174D3338007870FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB250DB174D3338007870FB /* Build configuration list for PBXNativeTarget "Autosize_noArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB250DC174D3338007870FB /* Debug */,
+				8EB250DD174D3338007870FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB250B0174D3338007870FB /* Project object */;
+}
