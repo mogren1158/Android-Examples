@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alabama</key>
+	<array>
+		<string>123456</string>
+		<string>123423</string>
+	</array>
+	<key>Alaska</key>
+	<array>
+		<string>423321</string>
+		<string>123122</string>
+	</array>
+	<key>Arizona</key>
+	<array>
+		<string>425313</string>
+		<string>421321</string>
+		<string>213242</string>
+		<string>233313</string>
+		<string>213423</string>
+	</array>
+</dict>
+</plist>

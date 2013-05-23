@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED060FD174E737700209189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED060FC174E737700209189 /* UIKit.framework */; };
+		8ED060FF174E737700209189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED060FE174E737700209189 /* Foundation.framework */; };
+		8ED06101174E737700209189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED06100174E737700209189 /* CoreGraphics.framework */; };
+		8ED06107174E737700209189 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06105174E737700209189 /* InfoPlist.strings */; };
+		8ED06109174E737700209189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED06108174E737700209189 /* main.m */; };
+		8ED0610D174E737700209189 /* JinaudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0610C174E737700209189 /* JinaudAppDelegate.m */; };
+		8ED0610F174E737700209189 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0610E174E737700209189 /* Default.png */; };
+		8ED06111174E737700209189 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06110174E737700209189 /* Default@2x.png */; };
+		8ED06113174E737700209189 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06112174E737700209189 /* Default-568h@2x.png */; };
+		8ED06121174E742100209189 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0611F174E742100209189 /* DatePickerViewController.m */; };
+		8ED06122174E742100209189 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06120174E742100209189 /* DatePickerViewController.xib */; };
+		8ED06126174E744000209189 /* JinaudSingleComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED06124174E744000209189 /* JinaudSingleComponentViewController.m */; };
+		8ED06127174E744000209189 /* JinaudSingleComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06125174E744000209189 /* JinaudSingleComponentViewController.xib */; };
+		8ED0612B174E744F00209189 /* JinaudDoubleComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED06129174E744F00209189 /* JinaudDoubleComponentViewController.m */; };
+		8ED0612C174E744F00209189 /* JinaudDoubleComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0612A174E744F00209189 /* JinaudDoubleComponentViewController.xib */; };
+		8ED06130174E746600209189 /* JinaudDependentComponentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0612E174E746600209189 /* JinaudDependentComponentViewController.m */; };
+		8ED06131174E746600209189 /* JinaudDependentComponentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0612F174E746600209189 /* JinaudDependentComponentViewController.xib */; };
+		8ED06135174E746E00209189 /* JinaudCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED06133174E746E00209189 /* JinaudCustomViewController.m */; };
+		8ED06136174E746E00209189 /* JinaudCustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06134174E746E00209189 /* JinaudCustomViewController.xib */; };
+		8ED06138174E756900209189 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ED06137174E756900209189 /* TabBarController.xib */; };
+		8ED0613C174E896A00209189 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0613B174E896A00209189 /* statedictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ED060F9174E737700209189 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED060FC174E737700209189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED060FE174E737700209189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ED06100174E737700209189 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED06104174E737700209189 /* Pickers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pickers-Info.plist"; sourceTree = "<group>"; };
+		8ED06106174E737700209189 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ED06108174E737700209189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED0610A174E737700209189 /* Pickers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pickers-Prefix.pch"; sourceTree = "<group>"; };
+		8ED0610B174E737700209189 /* JinaudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinaudAppDelegate.h; sourceTree = "<group>"; };
+		8ED0610C174E737700209189 /* JinaudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinaudAppDelegate.m; sourceTree = "<group>"; };
+		8ED0610E174E737700209189 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8ED06110174E737700209189 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8ED06112174E737700209189 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8ED0611E174E742100209189 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		8ED0611F174E742100209189 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		8ED06120174E742100209189 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		8ED06123174E744000209189 /* JinaudSingleComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudSingleComponentViewController.h; sourceTree = "<group>"; };
+		8ED06124174E744000209189 /* JinaudSingleComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudSingleComponentViewController.m; sourceTree = "<group>"; };
+		8ED06125174E744000209189 /* JinaudSingleComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinaudSingleComponentViewController.xib; sourceTree = "<group>"; };
+		8ED06128174E744F00209189 /* JinaudDoubleComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudDoubleComponentViewController.h; sourceTree = "<group>"; };
+		8ED06129174E744F00209189 /* JinaudDoubleComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudDoubleComponentViewController.m; sourceTree = "<group>"; };
+		8ED0612A174E744F00209189 /* JinaudDoubleComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinaudDoubleComponentViewController.xib; sourceTree = "<group>"; };
+		8ED0612D174E746600209189 /* JinaudDependentComponentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudDependentComponentViewController.h; sourceTree = "<group>"; };
+		8ED0612E174E746600209189 /* JinaudDependentComponentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudDependentComponentViewController.m; sourceTree = "<group>"; };
+		8ED0612F174E746600209189 /* JinaudDependentComponentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinaudDependentComponentViewController.xib; sourceTree = "<group>"; };
+		8ED06132174E746E00209189 /* JinaudCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudCustomViewController.h; sourceTree = "<group>"; };
+		8ED06133174E746E00209189 /* JinaudCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudCustomViewController.m; sourceTree = "<group>"; };
+		8ED06134174E746E00209189 /* JinaudCustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinaudCustomViewController.xib; sourceTree = "<group>"; };
+		8ED06137174E756900209189 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		8ED0613B174E896A00209189 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED060F6174E737700209189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED060FD174E737700209189 /* UIKit.framework in Frameworks */,
+				8ED060FF174E737700209189 /* Foundation.framework in Frameworks */,
+				8ED06101174E737700209189 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED060F0174E737700209189 = {
+			isa = PBXGroup;
+			children = (
+				8ED06102174E737700209189 /* Pickers */,
+				8ED060FB174E737700209189 /* Frameworks */,
+				8ED060FA174E737700209189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED060FA174E737700209189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED060F9174E737700209189 /* Pickers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED060FB174E737700209189 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ED060FC174E737700209189 /* UIKit.framework */,
+				8ED060FE174E737700209189 /* Foundation.framework */,
+				8ED06100174E737700209189 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED06102174E737700209189 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				8ED0611E174E742100209189 /* DatePickerViewController.h */,
+				8ED0611F174E742100209189 /* DatePickerViewController.m */,
+				8ED06120174E742100209189 /* DatePickerViewController.xib */,
+				8ED06123174E744000209189 /* JinaudSingleComponentViewController.h */,
+				8ED06124174E744000209189 /* JinaudSingleComponentViewController.m */,
+				8ED06125174E744000209189 /* JinaudSingleComponentViewController.xib */,
+				8ED06128174E744F00209189 /* JinaudDoubleComponentViewController.h */,
+				8ED06129174E744F00209189 /* JinaudDoubleComponentViewController.m */,
+				8ED0612A174E744F00209189 /* JinaudDoubleComponentViewController.xib */,
+				8ED0612D174E746600209189 /* JinaudDependentComponentViewController.h */,
+				8ED0612E174E746600209189 /* JinaudDependentComponentViewController.m */,
+				8ED0612F174E746600209189 /* JinaudDependentComponentViewController.xib */,
+				8ED06132174E746E00209189 /* JinaudCustomViewController.h */,
+				8ED06133174E746E00209189 /* JinaudCustomViewController.m */,
+				8ED06134174E746E00209189 /* JinaudCustomViewController.xib */,
+				8ED0610B174E737700209189 /* JinaudAppDelegate.h */,
+				8ED0610C174E737700209189 /* JinaudAppDelegate.m */,
+				8ED06137174E756900209189 /* TabBarController.xib */,
+				8ED06103174E737700209189 /* Supporting Files */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		8ED06103174E737700209189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED06104174E737700209189 /* Pickers-Info.plist */,
+				8ED06105174E737700209189 /* InfoPlist.strings */,
+				8ED06108174E737700209189 /* main.m */,
+				8ED0610A174E737700209189 /* Pickers-Prefix.pch */,
+				8ED0610E174E737700209189 /* Default.png */,
+				8ED06110174E737700209189 /* Default@2x.png */,
+				8ED06112174E737700209189 /* Default-568h@2x.png */,
+				8ED0613B174E896A00209189 /* statedictionary.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED060F8174E737700209189 /* Pickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED06116174E737700209189 /* Build configuration list for PBXNativeTarget "Pickers" */;
+			buildPhases = (
+				8ED060F5174E737700209189 /* Sources */,
+				8ED060F6174E737700209189 /* Frameworks */,
+				8ED060F7174E737700209189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pickers;
+			productName = Pickers;
+			productReference = 8ED060F9174E737700209189 /* Pickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED060F1174E737700209189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jinaud;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Ogren";
+			};
+			buildConfigurationList = 8ED060F4174E737700209189 /* Build configuration list for PBXProject "Pickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ED060F0174E737700209189;
+			productRefGroup = 8ED060FA174E737700209189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED060F8174E737700209189 /* Pickers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED060F7174E737700209189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED06107174E737700209189 /* InfoPlist.strings in Resources */,
+				8ED0610F174E737700209189 /* Default.png in Resources */,
+				8ED06111174E737700209189 /* Default@2x.png in Resources */,
+				8ED06113174E737700209189 /* Default-568h@2x.png in Resources */,
+				8ED06122174E742100209189 /* DatePickerViewController.xib in Resources */,
+				8ED06127174E744000209189 /* JinaudSingleComponentViewController.xib in Resources */,
+				8ED0612C174E744F00209189 /* JinaudDoubleComponentViewController.xib in Resources */,
+				8ED06131174E746600209189 /* JinaudDependentComponentViewController.xib in Resources */,
+				8ED06136174E746E00209189 /* JinaudCustomViewController.xib in Resources */,
+				8ED06138174E756900209189 /* TabBarController.xib in Resources */,
+				8ED0613C174E896A00209189 /* statedictionary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED060F5174E737700209189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED06109174E737700209189 /* main.m in Sources */,
+				8ED0610D174E737700209189 /* JinaudAppDelegate.m in Sources */,
+				8ED06121174E742100209189 /* DatePickerViewController.m in Sources */,
+				8ED06126174E744000209189 /* JinaudSingleComponentViewController.m in Sources */,
+				8ED0612B174E744F00209189 /* JinaudDoubleComponentViewController.m in Sources */,
+				8ED06130174E746600209189 /* JinaudDependentComponentViewController.m in Sources */,
+				8ED06135174E746E00209189 /* JinaudCustomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ED06105174E737700209189 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED06106174E737700209189 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED06114174E737700209189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ED06115174E737700209189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED06117174E737700209189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
+				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ED06118174E737700209189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
+				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED060F4174E737700209189 /* Build configuration list for PBXProject "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED06114174E737700209189 /* Debug */,
+				8ED06115174E737700209189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED06116174E737700209189 /* Build configuration list for PBXNativeTarget "Pickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED06117174E737700209189 /* Debug */,
+				8ED06118174E737700209189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED060F1174E737700209189 /* Project object */;
+}

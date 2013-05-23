@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA46200174EB1A700C12A34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA461FF174EB1A700C12A34 /* UIKit.framework */; };
+		8EA46202174EB1A700C12A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA46201174EB1A700C12A34 /* Foundation.framework */; };
+		8EA46204174EB1A700C12A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA46203174EB1A700C12A34 /* CoreGraphics.framework */; };
+		8EA4620A174EB1A700C12A34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA46208174EB1A700C12A34 /* InfoPlist.strings */; };
+		8EA4620C174EB1A700C12A34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4620B174EB1A700C12A34 /* main.m */; };
+		8EA46210174EB1A700C12A34 /* JinaudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA4620F174EB1A700C12A34 /* JinaudAppDelegate.m */; };
+		8EA46212174EB1A700C12A34 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA46211174EB1A700C12A34 /* Default.png */; };
+		8EA46214174EB1A700C12A34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA46213174EB1A700C12A34 /* Default@2x.png */; };
+		8EA46216174EB1A700C12A34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA46215174EB1A700C12A34 /* Default-568h@2x.png */; };
+		8EA46219174EB1A700C12A34 /* JinaudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA46218174EB1A700C12A34 /* JinaudViewController.m */; };
+		8EA4621C174EB1A700C12A34 /* JinaudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4621A174EB1A700C12A34 /* JinaudViewController.xib */; };
+		8EA46227174EB23D00C12A34 /* JinaudNameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA46226174EB23D00C12A34 /* JinaudNameAndColorCell.m */; };
+		8EA4622A174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA46229174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.m */; };
+		8EA4622C174EB75B00C12A34 /* JinaudNameAndColorCellWithXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA4622B174EB75B00C12A34 /* JinaudNameAndColorCellWithXib.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EA461FC174EB1A700C12A34 /* Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA461FF174EB1A700C12A34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EA46201174EB1A700C12A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EA46203174EB1A700C12A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EA46207174EB1A700C12A34 /* Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cells-Info.plist"; sourceTree = "<group>"; };
+		8EA46209174EB1A700C12A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EA4620B174EB1A700C12A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EA4620D174EB1A700C12A34 /* Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cells-Prefix.pch"; sourceTree = "<group>"; };
+		8EA4620E174EB1A700C12A34 /* JinaudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinaudAppDelegate.h; sourceTree = "<group>"; };
+		8EA4620F174EB1A700C12A34 /* JinaudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinaudAppDelegate.m; sourceTree = "<group>"; };
+		8EA46211174EB1A700C12A34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8EA46213174EB1A700C12A34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8EA46215174EB1A700C12A34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EA46217174EB1A700C12A34 /* JinaudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JinaudViewController.h; sourceTree = "<group>"; };
+		8EA46218174EB1A700C12A34 /* JinaudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinaudViewController.m; sourceTree = "<group>"; };
+		8EA4621B174EB1A700C12A34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JinaudViewController.xib; sourceTree = "<group>"; };
+		8EA46225174EB23D00C12A34 /* JinaudNameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudNameAndColorCell.h; sourceTree = "<group>"; };
+		8EA46226174EB23D00C12A34 /* JinaudNameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudNameAndColorCell.m; sourceTree = "<group>"; };
+		8EA46228174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudNameAndColorCellWithXib.h; sourceTree = "<group>"; };
+		8EA46229174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudNameAndColorCellWithXib.m; sourceTree = "<group>"; };
+		8EA4622B174EB75B00C12A34 /* JinaudNameAndColorCellWithXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JinaudNameAndColorCellWithXib.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA461F9174EB1A700C12A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA46200174EB1A700C12A34 /* UIKit.framework in Frameworks */,
+				8EA46202174EB1A700C12A34 /* Foundation.framework in Frameworks */,
+				8EA46204174EB1A700C12A34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA461F3174EB1A700C12A34 = {
+			isa = PBXGroup;
+			children = (
+				8EA46205174EB1A700C12A34 /* Cells */,
+				8EA461FE174EB1A700C12A34 /* Frameworks */,
+				8EA461FD174EB1A700C12A34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA461FD174EB1A700C12A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA461FC174EB1A700C12A34 /* Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA461FE174EB1A700C12A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA461FF174EB1A700C12A34 /* UIKit.framework */,
+				8EA46201174EB1A700C12A34 /* Foundation.framework */,
+				8EA46203174EB1A700C12A34 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA46205174EB1A700C12A34 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8EA46225174EB23D00C12A34 /* JinaudNameAndColorCell.h */,
+				8EA46226174EB23D00C12A34 /* JinaudNameAndColorCell.m */,
+				8EA46228174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.h */,
+				8EA46229174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.m */,
+				8EA4622B174EB75B00C12A34 /* JinaudNameAndColorCellWithXib.xib */,
+				8EA4620E174EB1A700C12A34 /* JinaudAppDelegate.h */,
+				8EA4620F174EB1A700C12A34 /* JinaudAppDelegate.m */,
+				8EA46217174EB1A700C12A34 /* JinaudViewController.h */,
+				8EA46218174EB1A700C12A34 /* JinaudViewController.m */,
+				8EA4621A174EB1A700C12A34 /* JinaudViewController.xib */,
+				8EA46206174EB1A700C12A34 /* Supporting Files */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8EA46206174EB1A700C12A34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA46207174EB1A700C12A34 /* Cells-Info.plist */,
+				8EA46208174EB1A700C12A34 /* InfoPlist.strings */,
+				8EA4620B174EB1A700C12A34 /* main.m */,
+				8EA4620D174EB1A700C12A34 /* Cells-Prefix.pch */,
+				8EA46211174EB1A700C12A34 /* Default.png */,
+				8EA46213174EB1A700C12A34 /* Default@2x.png */,
+				8EA46215174EB1A700C12A34 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA461FB174EB1A700C12A34 /* Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA4621F174EB1A700C12A34 /* Build configuration list for PBXNativeTarget "Cells" */;
+			buildPhases = (
+				8EA461F8174EB1A700C12A34 /* Sources */,
+				8EA461F9174EB1A700C12A34 /* Frameworks */,
+				8EA461FA174EB1A700C12A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cells;
+			productName = Cells;
+			productReference = 8EA461FC174EB1A700C12A34 /* Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA461F4174EB1A700C12A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jinaud;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Ogren";
+			};
+			buildConfigurationList = 8EA461F7174EB1A700C12A34 /* Build configuration list for PBXProject "Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EA461F3174EB1A700C12A34;
+			productRefGroup = 8EA461FD174EB1A700C12A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA461FB174EB1A700C12A34 /* Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA461FA174EB1A700C12A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA4620A174EB1A700C12A34 /* InfoPlist.strings in Resources */,
+				8EA46212174EB1A700C12A34 /* Default.png in Resources */,
+				8EA46214174EB1A700C12A34 /* Default@2x.png in Resources */,
+				8EA46216174EB1A700C12A34 /* Default-568h@2x.png in Resources */,
+				8EA4621C174EB1A700C12A34 /* JinaudViewController.xib in Resources */,
+				8EA4622C174EB75B00C12A34 /* JinaudNameAndColorCellWithXib.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA461F8174EB1A700C12A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA4620C174EB1A700C12A34 /* main.m in Sources */,
+				8EA46210174EB1A700C12A34 /* JinaudAppDelegate.m in Sources */,
+				8EA46219174EB1A700C12A34 /* JinaudViewController.m in Sources */,
+				8EA46227174EB23D00C12A34 /* JinaudNameAndColorCell.m in Sources */,
+				8EA4622A174EB6BF00C12A34 /* JinaudNameAndColorCellWithXib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EA46208174EB1A700C12A34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA46209174EB1A700C12A34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EA4621A174EB1A700C12A34 /* JinaudViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EA4621B174EB1A700C12A34 /* en */,
+			);
+			name = JinaudViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EA4621D174EB1A700C12A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EA4621E174EB1A700C12A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA46220174EB1A700C12A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cells/Cells-Prefix.pch";
+				INFOPLIST_FILE = "Cells/Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EA46221174EB1A700C12A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cells/Cells-Prefix.pch";
+				INFOPLIST_FILE = "Cells/Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA461F7174EB1A700C12A34 /* Build configuration list for PBXProject "Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA4621D174EB1A700C12A34 /* Debug */,
+				8EA4621E174EB1A700C12A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA4621F174EB1A700C12A34 /* Build configuration list for PBXNativeTarget "Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA46220174EB1A700C12A34 /* Debug */,
+				8EA46221174EB1A700C12A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA461F4174EB1A700C12A34 /* Project object */;
+}
