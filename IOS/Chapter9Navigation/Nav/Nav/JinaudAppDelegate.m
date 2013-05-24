@@ -1,26 +1,26 @@
 //
 //  JinaudAppDelegate.m
-//  Sections
+//  Nav
 //
-//  Created by Michael Ogren on 5/23/13.
+//  Created by Michael Ogren on 5/24/13.
 //  Copyright (c) 2013 Michael Ogren. All rights reserved.
 //
 
 #import "JinaudAppDelegate.h"
-#import "JinaudViewController.h"
-
+#import "JinaudFirstLevelViewController.h"
 
 @implementation JinaudAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    JinaudFirstLevelViewController * first = [[JinaudFirstLevelViewController alloc] init];
+    UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:first];
+    
+    self.window.rootViewController = navigation;
+    
     // Override point for customization after application launch.
-    JinaudViewController * controller  = [[JinaudViewController alloc]
-                                          initWithNibName:@"JinaudViewController"
-                                          bundle:nil];
-    self.viewController = [[UINavigationController alloc]initWithRootViewController:controller];
-    self.window.rootViewController = self.viewController;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
