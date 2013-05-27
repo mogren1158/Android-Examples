@@ -1,39 +1,24 @@
 //
-//  JinaudFirstLevelViewController.m
-//  Nav
+//  JinaudTaskListViewController.m
+//  Simple Storyboard
 //
-//  Created by Michael Ogren on 5/24/13.
+//  Created by Michael Ogren on 5/27/13.
 //  Copyright (c) 2013 Michael Ogren. All rights reserved.
 //
 
-#import "JinaudFirstLevelViewController.h"
-#import "JinaudSecondLevelViewController.h"
-#import "JinaudDisclosureButtonViewController.h"
-#import "JinaudCheckListViewController.h"
-#import "JinaudRowControlsViewController.h"
-#import "JinaudMoveMeViewController.h"
-#import "JinaudDeleteMeViewController.h"
-#import "JinaudPresidentsViewController.h"
+#import "JinaudTaskListViewController.h"
 
-@implementation JinaudFirstLevelViewController
+@interface JinaudTaskListViewController ()
 
+@end
 
-static NSString * CellIdentifier = @"Cell";
+@implementation JinaudTaskListViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        self.title = @"First Level";
-        self.controllers = @[
-                             [[JinaudDisclosureButtonViewController alloc]init],
-                             [[JinaudCheckListViewController alloc] init],
-                             [[JinaudRowControlsViewController alloc] init],
-                             [[JinaudMoveMeViewController alloc] init],
-                             [[JinaudDeleteMeViewController alloc] init]
-                             //[[JinaudPresidentsViewController alloc]init]
-                             ];
     }
     return self;
 }
@@ -47,8 +32,21 @@ static NSString * CellIdentifier = @"Cell";
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:CellIdentifier];
+    self.tasks = [@[@"Walk the dog",
+                   @"URGENT: Buy milk",
+                   @"Clean hidden lair",
+                   @"Invent miniature dolphins",
+                   @"Find new henchmen",
+                   @"Get revenge on do-gooder heroes",
+                   @"URGENT: Fold laundry",
+                   @"Hold entire world hostage",
+                   @"Manicure"] mutableCopy];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Table view data source
@@ -62,18 +60,39 @@ static NSString * CellIdentifier = @"Cell";
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [self.controllers count];
+    return [self.tasks count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSString *CellIdentifier = nil;
+    
+    NSString * task = [self.tasks objectAtIndex:indexPath.row];
+    NSRange urgentRange = [task rangeOfString:@"URGENT"];
+    if(urgentRange.location == NSNotFound)
+    {
+        CellIdentifier = @"plainCell";
+    }
+    else
+    {
+        CellIdentifier = @"attentionCell";
+    }
+    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    JinaudSecondLevelViewController * controller = self.controllers[indexPath.row];
-    cell.textLabel.text = controller.title;
-    cell.imageView.image = controller.rowImage;
     
+    
+    
+    UILabel * cellLabel = (UILabel *) [cell viewWithTag:1];
+    NSMutableAttributedString * richTask = [[NSMutableAttributedString alloc] initWithString:task];
+    NSDictionary * urgentAttributes = @{
+                                        NSFontAttributeName: [UIFont fontWithName:@"Courier" size:23],
+                                        NSStrokeWidthAttributeName: @3.0
+                                        };
+    
+    [richTask setAttributes:urgentAttributes range:urgentRange];
+    cellLabel.attributedText = richTask;
     return cell;
 }
 
@@ -127,8 +146,42 @@ static NSString * CellIdentifier = @"Cell";
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIViewController * destination = segue.destinationViewController;
+    if([destination respondsToSelector:@selector(setDelegate:)])
+    {
+        [destination setValue:self forKey: @"delegate"];
+    }
     
-    [self.navigationController pushViewController:self.controllers[indexPath.row] animated:YES];
+    if([destination respondsToSelector:@selector(setSelection:)])
+    {
+        NSIndexPath * indexPath = [self.tableView indexPathForCell:sender];
+        id object = self.tasks[indexPath.row];
+        NSDictionary * selection = @{
+                                     @"indexPath" : indexPath,
+                                     @"object": object
+                                     };
+        
+        [destination setValue:selection forKey:@"selection"];
+    }
+}
+
+-(void) setEditedSelection:(NSDictionary *)editedSelection
+{
+    NSLog(@"setEditedSelection = %@", editedSelection);
+    if(![editedSelection isEqualToDictionary:self.editedSelection])
+    {
+        _editedSelection = editedSelection;
+        NSIndexPath *indexPath = editedSelection[@"indexPath"];
+        id newValue = editedSelection[@"object"];
+        [self.tasks replaceObjectAtIndex:indexPath.row withObject:newValue];
+        [self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+                              withRowAnimation:UITableViewRowAnimationAutomatic];
+    }
 }
 
 @end

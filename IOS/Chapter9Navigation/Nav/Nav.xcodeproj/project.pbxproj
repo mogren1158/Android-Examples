@@ -20,6 +20,15 @@
 		8EC5F8AF174FEF9500EB2D9F /* JinaudSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8AE174FEF9500EB2D9F /* JinaudSecondLevelViewController.m */; };
 		8EC5F8B2174FF29600EB2D9F /* JinaudDisclosureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8B1174FF29600EB2D9F /* JinaudDisclosureButtonViewController.m */; };
 		8EC5F8B5174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8B4174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.m */; };
+		8EC5F8B8174FFDBC00EB2D9F /* JinaudCheckListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8B7174FFDBC00EB2D9F /* JinaudCheckListViewController.m */; };
+		8EC5F8BB1750015400EB2D9F /* JinaudRowControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8BA1750015400EB2D9F /* JinaudRowControlsViewController.m */; };
+		8EC5F8BE1750051500EB2D9F /* JinaudMoveMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8BD1750051500EB2D9F /* JinaudMoveMeViewController.m */; };
+		8EC5F8C1175008D300EB2D9F /* JinaudDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8C0175008D300EB2D9F /* JinaudDeleteMeViewController.m */; };
+		8EC5F8C517500B0400EB2D9F /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5F8C417500B0400EB2D9F /* computers.plist */; };
+		8EC5F8C817500E6100EB2D9F /* JinaudPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8C717500E6100EB2D9F /* JinaudPresident.m */; };
+		8EC5F8CB1750116B00EB2D9F /* JinaudPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8CA1750116B00EB2D9F /* JinaudPresidentsViewController.m */; };
+		8EC5F8D11750122B00EB2D9F /* JinaudPresidentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC5F8D01750122B00EB2D9F /* JinaudPresidentDetailViewController.m */; };
+		8EC5F8DD1750274B00EB2D9F /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EC5F8DC1750274B00EB2D9F /* Presidents.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +53,22 @@
 		8EC5F8B1174FF29600EB2D9F /* JinaudDisclosureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudDisclosureButtonViewController.m; sourceTree = "<group>"; };
 		8EC5F8B3174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudDisclosureDetailViewController.h; sourceTree = "<group>"; };
 		8EC5F8B4174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudDisclosureDetailViewController.m; sourceTree = "<group>"; };
+		8EC5F8B6174FFDBC00EB2D9F /* JinaudCheckListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudCheckListViewController.h; sourceTree = "<group>"; };
+		8EC5F8B7174FFDBC00EB2D9F /* JinaudCheckListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudCheckListViewController.m; sourceTree = "<group>"; };
+		8EC5F8B91750015400EB2D9F /* JinaudRowControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudRowControlsViewController.h; sourceTree = "<group>"; };
+		8EC5F8BA1750015400EB2D9F /* JinaudRowControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudRowControlsViewController.m; sourceTree = "<group>"; };
+		8EC5F8BC1750051500EB2D9F /* JinaudMoveMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudMoveMeViewController.h; sourceTree = "<group>"; };
+		8EC5F8BD1750051500EB2D9F /* JinaudMoveMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudMoveMeViewController.m; sourceTree = "<group>"; };
+		8EC5F8BF175008D300EB2D9F /* JinaudDeleteMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudDeleteMeViewController.h; sourceTree = "<group>"; };
+		8EC5F8C0175008D300EB2D9F /* JinaudDeleteMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudDeleteMeViewController.m; sourceTree = "<group>"; };
+		8EC5F8C417500B0400EB2D9F /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		8EC5F8C617500E6100EB2D9F /* JinaudPresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudPresident.h; sourceTree = "<group>"; };
+		8EC5F8C717500E6100EB2D9F /* JinaudPresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudPresident.m; sourceTree = "<group>"; };
+		8EC5F8C91750116A00EB2D9F /* JinaudPresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinaudPresidentsViewController.h; sourceTree = "<group>"; };
+		8EC5F8CA1750116B00EB2D9F /* JinaudPresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinaudPresidentsViewController.m; sourceTree = "<group>"; };
+		8EC5F8CF1750122B00EB2D9F /* JinaudPresidentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JinaudPresidentDetailViewController.h; path = ../JinaudPresidentDetailViewController.h; sourceTree = "<group>"; };
+		8EC5F8D01750122B00EB2D9F /* JinaudPresidentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JinaudPresidentDetailViewController.m; path = ../JinaudPresidentDetailViewController.m; sourceTree = "<group>"; };
+		8EC5F8DC1750274B00EB2D9F /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +121,20 @@
 				8EC5F8B4174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.m */,
 				8EC5F8AA174FEE0800EB2D9F /* JinaudFirstLevelViewController.h */,
 				8EC5F8AB174FEE0800EB2D9F /* JinaudFirstLevelViewController.m */,
+				8EC5F8BC1750051500EB2D9F /* JinaudMoveMeViewController.h */,
+				8EC5F8BD1750051500EB2D9F /* JinaudMoveMeViewController.m */,
+				8EC5F8C617500E6100EB2D9F /* JinaudPresident.h */,
+				8EC5F8C717500E6100EB2D9F /* JinaudPresident.m */,
+				8EC5F8C91750116A00EB2D9F /* JinaudPresidentsViewController.h */,
+				8EC5F8CA1750116B00EB2D9F /* JinaudPresidentsViewController.m */,
+				8EC5F8CF1750122B00EB2D9F /* JinaudPresidentDetailViewController.h */,
+				8EC5F8D01750122B00EB2D9F /* JinaudPresidentDetailViewController.m */,
+				8EC5F8BF175008D300EB2D9F /* JinaudDeleteMeViewController.h */,
+				8EC5F8C0175008D300EB2D9F /* JinaudDeleteMeViewController.m */,
+				8EC5F8B6174FFDBC00EB2D9F /* JinaudCheckListViewController.h */,
+				8EC5F8B7174FFDBC00EB2D9F /* JinaudCheckListViewController.m */,
+				8EC5F8B91750015400EB2D9F /* JinaudRowControlsViewController.h */,
+				8EC5F8BA1750015400EB2D9F /* JinaudRowControlsViewController.m */,
 				8EC5F89C174FEC4A00EB2D9F /* JinaudAppDelegate.h */,
 				8EC5F89D174FEC4A00EB2D9F /* JinaudAppDelegate.m */,
 				8EC5F8AD174FEF9500EB2D9F /* JinaudSecondLevelViewController.h */,
@@ -110,11 +149,13 @@
 			children = (
 				8EC5F895174FEC4A00EB2D9F /* Nav-Info.plist */,
 				8EC5F896174FEC4A00EB2D9F /* InfoPlist.strings */,
+				8EC5F8DC1750274B00EB2D9F /* Presidents.plist */,
 				8EC5F899174FEC4A00EB2D9F /* main.m */,
 				8EC5F89B174FEC4A00EB2D9F /* Nav-Prefix.pch */,
 				8EC5F89F174FEC4A00EB2D9F /* Default.png */,
 				8EC5F8A1174FEC4A00EB2D9F /* Default@2x.png */,
 				8EC5F8A3174FEC4A00EB2D9F /* Default-568h@2x.png */,
+				8EC5F8C417500B0400EB2D9F /* computers.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +216,8 @@
 				8EC5F8A0174FEC4A00EB2D9F /* Default.png in Resources */,
 				8EC5F8A2174FEC4A00EB2D9F /* Default@2x.png in Resources */,
 				8EC5F8A4174FEC4A00EB2D9F /* Default-568h@2x.png in Resources */,
+				8EC5F8C517500B0400EB2D9F /* computers.plist in Resources */,
+				8EC5F8DD1750274B00EB2D9F /* Presidents.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +234,13 @@
 				8EC5F8AF174FEF9500EB2D9F /* JinaudSecondLevelViewController.m in Sources */,
 				8EC5F8B2174FF29600EB2D9F /* JinaudDisclosureButtonViewController.m in Sources */,
 				8EC5F8B5174FF2B400EB2D9F /* JinaudDisclosureDetailViewController.m in Sources */,
+				8EC5F8B8174FFDBC00EB2D9F /* JinaudCheckListViewController.m in Sources */,
+				8EC5F8BB1750015400EB2D9F /* JinaudRowControlsViewController.m in Sources */,
+				8EC5F8BE1750051500EB2D9F /* JinaudMoveMeViewController.m in Sources */,
+				8EC5F8C1175008D300EB2D9F /* JinaudDeleteMeViewController.m in Sources */,
+				8EC5F8C817500E6100EB2D9F /* JinaudPresident.m in Sources */,
+				8EC5F8CB1750116B00EB2D9F /* JinaudPresidentsViewController.m in Sources */,
+				8EC5F8D11750122B00EB2D9F /* JinaudPresidentDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +320,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +332,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
 				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
